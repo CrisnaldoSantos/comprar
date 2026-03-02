@@ -2,6 +2,10 @@
 
 Aplicativo mobile de lista de compras desenvolvido durante a **Formação React Native** da [Rocketseat](https://rocketseat.com.br).
 
+<p align="center">
+  <img src="./.github/comprar-screenshot.png" alt="Preview do Comprar App" width="320" />
+</p>
+
 ---
 
 ## 📱 Sobre o projeto
@@ -11,6 +15,8 @@ O **Comprar** é um app simples e funcional para gerenciar sua lista de compras.
 - ➕ **Adicionar** itens à lista
 - 🗑️ **Remover** itens da lista
 - ✅ **Marcar** itens como comprado
+
+A persistência dos dados é feita com o **AsyncStorage**, solução de armazenamento local assíncrono do React Native. Isso garante que a lista de compras seja mantida mesmo após fechar o aplicativo, sem a necessidade de um servidor ou banco de dados externo.
 
 ---
 
@@ -45,5 +51,5 @@ Escaneie o QR Code com o app **Expo Go** (Android) ou a câmera (iOS).
 ---
 
 <p align="center">
-  Feito com 💜 durante a Formação React Native da <strong>Rocketseat</strong>
+  Feito durante a Formação React Native da <strong>Rocketseat</strong>
 </p>
